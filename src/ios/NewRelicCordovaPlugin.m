@@ -1,9 +1,6 @@
 //  New Relic for Mobile -- iOS edition
 //
-//  See:
-//    https://docs.newrelic.com/docs/releases/ios for release notes
-//
-//  Copyright (c) 2017 New Relic. All rights reserved.
+//  Copyright (c) 2017 - Present New Relic. All rights reserved.
 //  See https://docs.newrelic.com/docs/licenses/ios-agent-licenses for license details
 //
 
@@ -30,7 +27,6 @@
         [NewRelic startWithApplicationToken:applicationToken];
     }
 }
-
 - (void)recordBreadCrumb:(CDVInvokedUrlCommand *)command {
     NSString* name = [command.arguments objectAtIndex:0];
     NSDictionary *attributes = [command.arguments objectAtIndex:1];
