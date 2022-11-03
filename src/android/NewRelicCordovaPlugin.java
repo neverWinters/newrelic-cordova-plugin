@@ -1,6 +1,9 @@
 //  New Relic for Mobile -- Android edition
 //
-//  Copyright (c) 2017 - Present New Relic. All rights reserved.
+//  See:
+//    https://docs.newrelic.com/docs/releases/android for release notes
+//
+//  Copyright (c) 2021 New Relic. All rights reserved.
 //  See https://docs.newrelic.com/docs/licenses/android-agent-licenses for license details
 //
 
